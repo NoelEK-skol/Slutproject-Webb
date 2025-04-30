@@ -86,7 +86,7 @@ main{
 }
 .item{
     width: 26%;
-    height: 100px;
+    height: auto;
     background-color: aqua;
 }
 
