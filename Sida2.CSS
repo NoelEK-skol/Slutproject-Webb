@@ -3,7 +3,7 @@
     min-height: 100vh;
     min-width: 100vw;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 60px 240px 600px 300px;
+    grid-template-rows: 60px 240px 600px 250px;
     grid-template-areas:
     "nav nav nav nav"
     "header header header header"
@@ -140,6 +140,38 @@ footer{
     background-color: brown;
     padding: 2%;   
 }
+.MainFooterContainer{
+    display: flex;
+    height: 200px;
+}
+.Footeritem{
+    background-color: aquamarine;
+    width: 50%;
+    margin-top: 20%;
+}
+.Footeritem h4{
+    margin: 0;
+}
+.Footeritem p{
+    margin: 0;
+}
+.social-logo{
+    max-height: 20px;
+}
+.Footeritem2{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 10%;
+    height: 150px;
+}
+.inneritem2{
+    background-color: blueviolet;
+    height: 20px;
+    width: 33%;
+}
+
 
 
 @media (max-width:700px){
