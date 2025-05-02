@@ -3,7 +3,7 @@
     min-height: 100vh;
     min-width: 100vw;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 60px 260px 600px 250px;
+    grid-template-rows: 60px 260px 450px 250px;
     grid-template-areas:
     "nav nav nav nav"
     "header header header header"
@@ -51,7 +51,6 @@ nav{
 
 header{
     grid-area: header;
-    background-color: red;
     text-align: center;
     padding: 2%;
 }
@@ -69,6 +68,35 @@ header{
 main{
     grid-area: main;
     padding: 2%;
+    text-align: center;
+}
+#bild1{
+    display: block;
+    max-height: 150px;
+    margin: 0 auto;
+}
+.ImageContainer{
+    display: flex;
+    background-color: blue;
+}
+.item1{
+    width: 50%;
+    height: 200px;
+}
+#ImgG1{
+    width: 150px;
+}
+.item2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Galleryinner{
+    width: 50%;
+    background-color: aqua;
+}
+.GalleryImg{
+    width: 100px;
 }
 
 
@@ -76,7 +104,7 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: brown;
+   
     padding: 2%;   
 }
 .MainFooterContainer{
@@ -84,7 +112,7 @@ footer{
     height: 200px;
 }
 .Footeritem{
-    background-color: aquamarine;
+    
     width: 50%;
     margin-top: 20%;
 }
@@ -98,7 +126,7 @@ footer{
     max-height: 20px;
 }
 .Footeritem2{
-    background-color: aqua;
+   
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -106,7 +134,7 @@ footer{
     height: 150px;
 }
 .inneritem2{
-    background-color: blueviolet;
+    
     height: 20px;
     width: 33%;
 }

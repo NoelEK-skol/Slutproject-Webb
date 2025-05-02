@@ -3,7 +3,7 @@
     min-height: 100vh;
     min-width: 100vw;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 60px 260px 600px 250px;
+    grid-template-rows: 60px 260px 400px 250px;
     grid-template-areas:
     "nav nav nav nav"
     "header header header header"
@@ -51,7 +51,6 @@ nav{
 
 header{
     grid-area: header;
-    background-color: red;
     text-align: center;
     padding: 2%;
 }
@@ -87,7 +86,6 @@ main{
 .item{
     width: 26%;
     height: auto;
-    background-color: aqua;
 }
 
 
@@ -95,7 +93,6 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: brown;
     padding: 2%;   
 }
 .MainFooterContainer{
@@ -103,7 +100,6 @@ footer{
     height: 200px;
 }
 .Footeritem{
-    background-color: aquamarine;
     width: 50%;
     margin-top: 20%;
 }
@@ -117,7 +113,6 @@ footer{
     max-height: 20px;
 }
 .Footeritem2{
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -125,7 +120,6 @@ footer{
     height: 150px;
 }
 .inneritem2{
-    background-color: blueviolet;
     height: 20px;
     width: 33%;
 }
