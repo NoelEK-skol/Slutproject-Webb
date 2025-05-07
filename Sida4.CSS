@@ -3,7 +3,7 @@
     min-height: 100vh;
     min-width: 100vw;
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 60px 260px 450px 250px;
+    grid-template-rows: 60px 260px 450px 300px;
     grid-template-areas:
     "nav nav nav nav"
     "header header header header"
@@ -12,7 +12,14 @@
 }
 body{
     margin: 0;
+    background-color: white;
+    color: black;
 }
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
 
 
 nav{
@@ -54,6 +61,15 @@ header{
     text-align: center;
     padding: 2%;
 }
+.btn1{
+    border: solid 1px black;
+    text-align: center;
+    float: center;
+    bottom: 10px;
+    position: relative;
+    background-color: gray;
+}
+
 .btn2{
     border: solid 1px black;
     text-align: center;
