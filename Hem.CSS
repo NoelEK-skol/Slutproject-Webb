@@ -118,6 +118,9 @@ main{
 .card.container{
     padding: 2px 16px;
 }
+#LäsMerText{
+    text-decoration: none;
+}
 
 
 

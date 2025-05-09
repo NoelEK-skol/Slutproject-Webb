@@ -18,6 +18,10 @@ body{
 .dark-mode{
     background-color: black;
     color: white;
+    #submitKnapp {
+        background-color: white;
+        color: black;
+    }
 }
 
 
