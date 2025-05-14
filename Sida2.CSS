@@ -60,7 +60,7 @@ header{
     text-align: center;
     padding: 2%;
 }
-.btn{
+.btnM{
     border: solid 1px black;
     text-align: center;
     margin: 0;
@@ -69,7 +69,15 @@ header{
     left: 40%;
     top: 10%;
 }
-
+.btnÅ{
+    border: solid 1px black;
+    text-align: center;
+    margin: 0;
+    float: left;
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
 
 
 
