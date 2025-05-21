@@ -67,7 +67,6 @@ header{
     float: center;
     bottom: 10px;
     position: relative;
-    background-color: gray;
 }
 
 .btn2{
@@ -93,7 +92,6 @@ main{
 }
 .ImageContainer{
     display: flex;
-    background-color: blue;
 }
 .item1{
     width: 50%;
@@ -109,7 +107,6 @@ main{
 }
 .Galleryinner{
     width: 50%;
-    background-color: aqua;
 }
 .GalleryImg{
     width: 100px;
